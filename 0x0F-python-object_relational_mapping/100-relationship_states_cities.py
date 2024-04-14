@@ -32,4 +32,3 @@ if __name__ == "__main__":
 
     # Commit the session to persist the changes in the database
     session.commit()
-

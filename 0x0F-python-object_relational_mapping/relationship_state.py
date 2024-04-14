@@ -25,4 +25,3 @@ class State(Base):
 
     # Define the relationship between State and City models
     cities = relationship("City", backref="state", cascade="all, delete")
-
