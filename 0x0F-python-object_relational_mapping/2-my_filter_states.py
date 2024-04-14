@@ -19,4 +19,3 @@ if __name__ == "__main__":
 
     # Fetch all rows and print the states
     [print(state) for state in c.fetchall()]
-
