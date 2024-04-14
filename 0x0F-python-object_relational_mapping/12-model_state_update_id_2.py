@@ -22,4 +22,3 @@ if __name__ == "__main__":
     state.name = "New Mexico"
     # Commit the session to persist the changes
     session.commit()
-
