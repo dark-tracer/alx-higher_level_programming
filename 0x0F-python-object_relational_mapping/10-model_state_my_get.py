@@ -28,4 +28,3 @@ if __name__ == "__main__":
     # Print a message if the state is not found
     if found is False:
         print("Not found")
-
