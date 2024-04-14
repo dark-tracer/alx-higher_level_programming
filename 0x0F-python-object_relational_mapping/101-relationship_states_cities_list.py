@@ -28,4 +28,3 @@ if __name__ == "__main__":
         for city in state.cities:
             # Print city ID and name
             print("    {}: {}".format(city.id, city.name))
-
