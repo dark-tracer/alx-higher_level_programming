@@ -20,4 +20,3 @@ if __name__ == "__main__":
     # Retrieve all states from the database and print their IDs and names
     for state in session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
-
